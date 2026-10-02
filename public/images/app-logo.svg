@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A27" />
+      <stop offset="100%" stop-color="#1A3818" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C05C3B" />
+      <stop offset="100%" stop-color="#E67E58" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- App Rounded Shield/Icon Container -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#logoGrad)" filter="url(#shadow)" />
+  
+  <!-- Top App Window Bar Accents -->
+  <rect x="2" y="2" width="44" height="10" rx="10" fill="#23481F" opacity="0.6" />
+  <circle cx="9" cy="7" r="2" fill="#E76F51" />
+  <circle cx="15" cy="7" r="2" fill="#F4A261" />
+  <circle cx="21" cy="7" r="2" fill="#2A9D8F" />
+
+  <!-- Inner Ledger Task Columns Graphic -->
+  <rect x="10" y="16" width="7" height="22" rx="2" fill="#FFFFFF" opacity="0.3" />
+  <rect x="20" y="16" width="7" height="15" rx="2" fill="url(#accentGrad)" />
+  <rect x="30" y="16" width="8" height="24" rx="2" fill="#5CB854" />
+
+  <!-- Bold Central 'L' Emblem -->
+  <path d="M12 36 V 18 H 16 V 32 H 24 V 36 Z" fill="#FFFFFF" opacity="0.95" />
+</svg>

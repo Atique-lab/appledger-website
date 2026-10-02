@@ -1,0 +1,11 @@
+# Assets Directory Security Policy
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_REFERER} !^$
+    RewriteCond %{HTTP_REFERER} !^https?://(www\.)?appledger\.in [NC]
+    RewriteCond %{HTTP_REFERER} !^https?://localhost [NC]
+    RewriteCond %{HTTP_REFERER} !^https?://127\.0\.0\.1 [NC]
+    RewriteRule \.(jpg|jpeg|png|gif|ico|svg|webp)$ - [F,NC]
+</IfModule>
