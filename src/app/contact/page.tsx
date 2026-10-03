@@ -19,7 +19,7 @@ const CONTACT_FAQS = [
   {
     id: 'faq-2',
     question: 'Where is task data stored?',
-    answer: 'By default, AppLedger stores task data in a local SQLite database file on your desktop for air-gapped privacy. Organizations can also connect internal PostgreSQL endpoints for multi-user team sync.',
+    answer: 'AppLedger utilizes PostgreSQL database infrastructure with strict Row Level Security (RLS), combined with client-side JSON export/import backup options for complete data privacy and security.',
   },
   {
     id: 'faq-3',
@@ -34,7 +34,7 @@ const CONTACT_FAQS = [
   {
     id: 'faq-5',
     question: 'Is Ledger cloud-based or on-premise ready?',
-    answer: 'Ledger runs as an air-gapped desktop application with optional secure cloud sync, allowing complete operational privacy for enterprise environments.',
+    answer: 'AppLedger combines native desktop performance with secure PostgreSQL cloud synchronization, protected by 5-tier role governance and multi-tenant organization isolation.',
   },
   {
     id: 'faq-6',

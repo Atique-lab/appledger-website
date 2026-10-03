@@ -11,14 +11,14 @@ export default function HelpPage() {
     {
       id: 'article-1',
       cat: 'database',
-      badge: 'Database & Config',
-      title: 'Database Configuration & Local Sync',
+      badge: 'Data Security & Sync',
+      title: 'Data Privacy, Cloud Sync & Backups',
       snippet:
-        'Configure your local database storage, set up SQLite file locations, or connect to an internal PostgreSQL server for team sync.',
-      bodyHeading: 'Connecting Database:',
+        'Learn how AppLedger secures your task data with PostgreSQL RLS security and native IPC JSON backup and restore capabilities.',
+      bodyHeading: 'Data Security & Backups:',
       bodyText:
-        'Open Settings → Database Config in AppLedger Desktop. Choose between local SQLite (zero-config) or enterprise PostgreSQL endpoint URL for team deployment.',
-      keywords: 'database config local sqlite postgres sync airgap',
+        'AppLedger provides secure cloud synchronization powered by PostgreSQL Row Level Security (RLS). You can easily export or import your workspace tasks via Settings → Data Export / Backup in AppLedger Desktop.',
+      keywords: 'database config cloud sync json backup privacy security postgres',
     },
     {
       id: 'article-2',
@@ -70,7 +70,7 @@ export default function HelpPage() {
           </ScrollReveal>
           <ScrollReveal direction="down" delay={0.1}>
             <p className="page-subtitle">
-              Learn about AppLedger Desktop architecture, database configuration, 5-tier role access, and automated team escalations.
+              Learn about AppLedger Desktop architecture, data security, 5-tier role access, and automated team escalations.
             </p>
           </ScrollReveal>
 
@@ -123,7 +123,7 @@ export default function HelpPage() {
                       onClick={() => setActiveCat('database')}
                       style={{ justifyContent: 'flex-start' }}
                     >
-                      Database & Config
+                      Data Security & Sync
                     </button>
                     <button
                       className={`btn ${activeCat === 'roles' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
