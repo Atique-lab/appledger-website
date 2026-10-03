@@ -5,7 +5,15 @@ import ScrollReveal from '@/components/ScrollReveal';
 export const metadata = {
   title: 'About AppLedger & Founder Story - Atique Shaikh',
   description:
-    "Learn about AppLedger's operational mission, 5-tier organizational governance, and the story of founder Atique Shaikh.",
+    "Learn about AppLedger's operational mission, 5-tier organizational governance, and the story of founder and lead developer Atique Shaikh.",
+  alternates: {
+    canonical: 'https://appledger.in/about',
+  },
+  openGraph: {
+    title: 'About AppLedger & Founder Story - Atique Shaikh',
+    description: "Built by Atique Shaikh. Learn about AppLedger's operational mission, Rizwan Shaikh's guidance, and Md Bellal's testing leadership.",
+    url: 'https://appledger.in/about',
+  },
 };
 
 export default function AboutPage() {

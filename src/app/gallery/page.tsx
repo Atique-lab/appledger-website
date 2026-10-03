@@ -3,9 +3,17 @@ import ScrollReveal from '@/components/ScrollReveal';
 import GalleryLightbox from '@/components/GalleryLightbox';
 
 export const metadata = {
-  title: 'App Gallery - AppLedger',
+  title: 'App Gallery & Desktop Interface - AppLedger',
   description:
-    'A visual preview of AppLedger desktop interface featuring Kanban boards, escalation workflows, 5-tier role governance, and CEO dashboards.',
+    'A visual preview of AppLedger desktop interface featuring Kanban boards, 5-tier role governance, Request to Action escalation inbox, and CEO executive dashboards.',
+  alternates: {
+    canonical: 'https://appledger.in/gallery',
+  },
+  openGraph: {
+    title: 'App Gallery - AppLedger Desktop Interface',
+    description: 'Explore all 6 operational categories and screenshots of the AppLedger desktop application.',
+    url: 'https://appledger.in/gallery',
+  },
 };
 
 export default function GalleryPage() {

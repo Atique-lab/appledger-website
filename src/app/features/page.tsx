@@ -6,9 +6,18 @@ import EscalationEngineSimulator from '@/components/EscalationEngineSimulator';
 import RlsGuestAccessConsole from '@/components/RlsGuestAccessConsole';
 
 export const metadata = {
-  title: 'Comprehensive Features & Role Matrix - AppLedger',
+  title: 'Comprehensive Features & 5-Tier Role Matrix - AppLedger',
   description:
-    "Explore AppLedger's 5-tier role hierarchy, 11 per-team workflow templates, automated 'Request to Action' escalation routing, and RLS-protected guest access.",
+    "Explore AppLedger's 5-tier role hierarchy (CEO, Admin, Manager, Lead, Member), 11 workflow templates, automated 'Request to Action' escalations, and PostgreSQL RLS guest access.",
+  alternates: {
+    canonical: 'https://appledger.in/features',
+  },
+  openGraph: {
+    title: 'AppLedger Features & 5-Tier Role Matrix',
+    description:
+      '5-tier role authorization, automated Request to Action escalations, and PostgreSQL Row-Level Security guest access.',
+    url: 'https://appledger.in/features',
+  },
 };
 
 export default function FeaturesPage() {
