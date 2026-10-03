@@ -58,6 +58,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://appledger.in',
   },
+  verification: {
+    google: 'NsriUmOGByOmvzvFnUoDWlUKpgIzdOWiun3rB3PqhnI',
+  },
   icons: {
     icon: '/images/app-logo.png',
     shortcut: '/images/favicon.ico',
